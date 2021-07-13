@@ -38,3 +38,25 @@
             "deadline": "2021-07-13"
         }
 ---
+
+    route para atualizar o title e o deadline de um todo : PUT - http://localhost:3333/todos/{id}
+        deve passar o username pelo header
+        Ex.:
+        header
+        {
+             "usernme": "JVM"
+        }
+
+        deve passar o id do todo na url
+        Ex.:
+        http://localhost:3333/todos/fbe3a25f-6b2d-4203-9f7b-e2ec7ccf6037
+
+        Ex.: Os dados devem ser passando via JSON no body
+        body
+        {
+            {
+                "title": "Praticar os conhecimentos do ignite",
+                "deadline" : "2021-07-14"
+            }
+        }
+---
