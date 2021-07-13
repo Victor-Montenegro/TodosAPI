@@ -1,5 +1,5 @@
 ## TodosAPI  
- Uma aplicação para gerenciar terefas. 
+ Uma aplicação para gerenciar terefas com nodejs + express para realizar um CRUD de dados, com os conceitos de uma API
 
 ---
 
