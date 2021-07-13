@@ -14,3 +14,11 @@
             "username": "JVM"
         }
 ---
+
+    route para visualizar lista de tarefas do usuario: GET - http://localhost:3333/todos
+        deve passar o username pelo header
+        Ex.:
+        header{
+            username: "JVM"
+        }
+---
